@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="eCom Webapp Test Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Amazon Test">
+		<classes>
+			<class name="com.harshi.testng_amazon.AmazonHomePageTest"></class>
+			<class
+				name="com.harshi.testng_amazon.AmazonLinkVerificationCssSelectorTest"></class>
+			<class
+				name="com.harshi.testng_amazon.AmazonLinkVerificationTes"></class>
+			<class
+				name="com.harshi.testng_amazon.AmazonLinkVerificationXpathTest"></class>
+			<class name="com.harshi.testng_amazon.AmazonSearchTestt"></class>
+		</classes>
+	</test>
+	<test name="Group Test">
+		<classes>
+			<class name="com.harshi.Testng.AttributeTest"></class>
+		</classes>
+	</test>
+	<test name="Other Test">
+		<classes>
+			<class name="com.harshi.Testng.TestNgStandardAnnotationTest"></class>
+			<class name="com.harshi.Testng.AssertionTest"></class>
+		</classes>
+	</test>
+</suite>
